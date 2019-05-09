@@ -263,8 +263,8 @@ def mail():
 	print(B+'Enter password list:'+E)
 	password = input(W+'Hunner»Mail»Password»'+E)
 	if password == '':
-		print(F+'Password list: password/password_list.txt'+E)
-		password = 'password/password_list.txt'
+		print(F+'Password list: password/4.2_billion_pwds! .txt'+E)
+		password = 'password/4.2_billion_pwds!.txt'
 	os.system('python3 modules/mail.py '+mail+' '+password)
 
 def Main_Menu():
