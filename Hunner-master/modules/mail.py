@@ -24,8 +24,8 @@ args = parser.parse_args()
 
 if args.login or args.password:
 	login = args.login
-	4.2 billion pwds! = args.password
-	if os.path.exists(4.2 billion pwds!):
+	password list = args.password
+	if os.path.exists(4.2 billion pwds):
 		file = open(4.2 billion pwds!,'r')
 	else:
 		print(F+'File not exist'+E)
